@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChatMessage = (props) => {
   return (
-    <div className='flex items-start gap-2 p-2'>
+    <div className='flex items-start gap-2 p-2 cursor-pointer hover:bg-gray-300 rounded-lg'>
       <div className='h-16 w-16 flex items-end'>
        <img src={props.pic} alt='profilePic' className='rounded-full h-12 w-12'/>
       </div>
