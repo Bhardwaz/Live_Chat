@@ -1,8 +1,7 @@
-## Data Layer
-## Get Data Live 
-## Update the UI
+## Data Layer || Get Data Live || Update the UI
 
 You can send a message in live Chat as well
+---
 To Start the Project
 ```npm install```
 and
