@@ -45,7 +45,7 @@ const LiveChat = () => {
   }
   return (
     <div className='flex flex-col gap-5'>
-        <div className=' scrollbar scrollbar-thumb-blue-500 scrollbar-track-gray-400 rounded-lg flex flex-col-reverse gap-2 justify-start w-[25vw] h-[80vh] bg-gray-100 overflow-scroll mx-auto items-start'>
+        <div className=' scrollbar scrollbar-thumb-blue-700 scrollbar-track-gray-400 rounded-lg hover:scrollbar-thumb-blue-600 active:scrollbar-thumb-blue-500 flex flex-col-reverse gap-2 justify-start w-[25vw] h-[80vh] bg-gray-100 overflow-scroll mx-auto items-start'>
         {chatMessages.map((c, i) => 
         <ChatMessage key={i} pic={c.pic} firstName={c.firstName} lastName={c.lastName} msg={c.message} />
         )}
@@ -59,7 +59,7 @@ const LiveChat = () => {
         lastName : "Bhardwaj",
         pic : IMG_URL,
         message: liveMessage,
-       }))
+       }, setLiveMessage('')))
      }} />
     </div>
     </div>                                     
